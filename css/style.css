@@ -3,12 +3,78 @@ body{
     overflow-x: hidden;
 }
 .banner-container{
-    background-color:bisque;
+    background-color:rgba(48, 165, 19, 0.466);
 }
 .banner-column{
-    background-color:rgb(173, 145, 110)
+    background-color:rgb(6, 66, 29)
 }
 .navbar-container{
     top:0;
     background-color: rgb(69, 172, 137);
+    position: sticky;
+    z-index: 2;
+}
+
+.about-container{
+    background-color:rgb(147, 177, 216);
+}
+.services-container{
+    background-color:rgb(99, 99, 139);
+    color: white;
+    
+}
+.circle{
+    background-color: rgb(209, 124, 124);
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+.doctor-container{
+    background-color: rgb(173, 238, 238);
+  
+}
+.labtest-container{
+    background-color: rgba(181, 147, 185, 0.712);
+    
+}
+.h2bg{
+    color: rgb(112, 43, 121);
+}
+.card-body{
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+}
+.card{
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+}
+.contract-container{
+    background-color:rgb(179, 117, 117);
+}
+.btn{
+    background-color:rgb(105, 44, 44);
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color:rgb(206, 19, 19);
+    border-radius: 150px;
+}
+.innerform{
+    background-color:rgba(138, 116, 116, 0.699);
+    color: white;
+
+}
+.innerform:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.658);
+}
+.footer-container{
+    background-color: rgba(0, 0, 0, 0.753);
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
 }
